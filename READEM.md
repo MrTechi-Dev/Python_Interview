@@ -26,7 +26,9 @@
 
 ### Python decorator:
 Sample:
+
 super_secret = "2323"
+
 def wrapper(func):
     password = input
     if password == super_secret
@@ -132,7 +134,7 @@ sum ([1, 2, 3])
 map(str, [1, 2, 3, 4])
 => ["1", "2", "3", "4"]
 
-### Zip
+### Zip:
 x = [1, 2, 3]
 y = [ 4, 5, 6]
 
@@ -150,10 +152,10 @@ floar(4)
 str (4,3)
 "4,3"
 
-## Sorted vs Sort function
+## Sorted vs Sort function:
 data.sort()
 => sorted data in a new instance
 
 sorted(data)
-=> sort data in the same isntance
+=> sort data in the same instance
 
