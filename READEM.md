@@ -26,7 +26,7 @@
 
 ### Python decorator:
 Sample:
-
+```
 super_secret = "2323"
 
 def wrapper(func):
@@ -41,10 +41,11 @@ return wrapper
 def need_password():
     print(password ok)
 
-if__name__==main:
+if__name__== main:
 need_password()
-
+```
 ### Dict comprenhestions:
+```
 from math import sqrt
 
 def run():
@@ -66,8 +67,9 @@ def run2():
 if __name__ == '__main__':
     run()
     run2()
-
+```
 ## List comprenhension:
+```
 def run():
     squares = []
     for i in range(1, 101):
@@ -83,11 +85,12 @@ def reto():
     squares = [i for i in range(1, 100) if i % 4 == 0 and i % 6 == 0 and i % 9 == 0]
     print(squares)
 
-
 if __name__ == '__main__':
     run()
     runn()
     reto()
+    
+```
 ### Python data types: 
 
 int: 1
@@ -121,13 +124,13 @@ True or False
 *len
 
 #### Samples:
-*round (6,3456)
+* round (6,3456)
 =>  6,3
 
 * range (3)
 => [0, 1, 2]
 
-sum ([1, 2, 3])
+* sum ([1, 2, 3])
 => 6
 
 ### Map:
